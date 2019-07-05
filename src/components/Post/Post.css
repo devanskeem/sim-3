@@ -1,0 +1,7 @@
+.Post{
+    height: 500px;
+    width: 1000px;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}

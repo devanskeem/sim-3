@@ -1,0 +1,84 @@
+.Auth{
+    min-height: 100vh;
+    min-width: 100vw;
+    background-image: linear-gradient(to right,#ff70a6,#ff9770, #e9ff70);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo{
+    animation: slide infinite 5s linear;
+}
+.login-title{
+    animation: rock infinite 5150ms linear;
+    color: white;
+    font-size: 75px;
+    font-weight: 700;
+}
+.input-box{
+    height: 350px;
+    width: 500px;
+    box-shadow: 1px 5px 10px 1px rgba(5,5,5,.5);
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.form-input{
+    color: white;
+    margin: 5px;
+}
+
+.input-field{
+    margin-left: 15px;
+    border: none;
+    border-radius: 3px;
+}
+
+.buttons > button{
+    margin: 18px 18px;
+    height: 35px;
+    width: 80px;
+    background: #403d39;
+    color: whitesmoke;
+    border: none;
+
+}
+
+@keyframes rock{
+    0% {
+        transform: rotate(0deg); 
+    }
+    25% {
+        transform: rotate(-15deg);
+    }
+    50% {
+        transform: rotate(0deg);
+    }
+    75% {
+        transform: rotate(15deg);
+    }
+    100% {
+        transform: rotate(0deg);
+    }
+}
+
+@keyframes slide{
+    0% {
+        transform: translate(0px); 
+    }
+    25% {
+        transform: translate(-15px);
+    }
+    50% {
+        transform: translate(0px);
+    }
+    75% {
+        transform: translate(15px);
+    }
+    100% {
+        transform: translate(0px);
+    }
+}
